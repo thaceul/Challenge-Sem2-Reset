@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DatabaseModelStoreContainer" CdmEntityContainer="DatabaseEntities">
+    <EntitySetMapping Name="Module">
+      <EntityTypeMapping TypeName="DatabaseModel.Module">
+        <MappingFragment StoreEntitySet="Module">
+          <ScalarProperty Name="MacAddress" ColumnName="MacAddress" />
+          <ScalarProperty Name="IssueDate" ColumnName="IssueDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Student">
+      <EntityTypeMapping TypeName="DatabaseModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FK__Student__25869641" TypeName="DatabaseModel.FK__Student__25869641" StoreEntitySet="Student">
+      <EndProperty Name="Module">
+        <ScalarProperty Name="MacAddress" ColumnName="MacAddress" />
+        <ScalarProperty Name="IssueDate" ColumnName="IssueDate" />
+      </EndProperty>
+      <EndProperty Name="Student">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <Condition IsNull="false" ColumnName="MacAddress" />
+      <Condition IsNull="false" ColumnName="IssueDate" />
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

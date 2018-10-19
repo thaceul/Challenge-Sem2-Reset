@@ -1,0 +1,9 @@
+C:\Users\STUDENT\source\repos\Challenge\Database\bin\Debug\Database.dacpac
+C:\Users\STUDENT\source\repos\Challenge\Database\obj\Debug\Database.dll
+C:\Users\STUDENT\source\repos\Challenge\Database\obj\Debug\Database.pdb
+C:\Users\STUDENT\source\repos\Challenge\Database\bin\Debug\Database.dll
+C:\Users\STUDENT\source\repos\Challenge\Database\bin\Debug\Database.pdb
+C:\Users\STUDENT\source\repos\Challenge\Database\obj\Debug\Model.xml
+C:\Users\STUDENT\source\repos\Challenge\Database\obj\Debug\refactor.xml
+C:\Users\STUDENT\source\repos\Challenge\Database\obj\Debug\postdeploy.sql
+C:\Users\STUDENT\source\repos\Challenge\Database\obj\Debug\predeploy.sql

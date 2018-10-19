@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DodGyAPI", "DodGyAPI\DodGyAPI.csproj", "{54275F63-6974-4D2A-BCC5-8867612B3B7A}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{4D3F70CA-9E3F-4731-8B4F-30E36D72558E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54275F63-6974-4D2A-BCC5-8867612B3B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54275F63-6974-4D2A-BCC5-8867612B3B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54275F63-6974-4D2A-BCC5-8867612B3B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54275F63-6974-4D2A-BCC5-8867612B3B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3F70CA-9E3F-4731-8B4F-30E36D72558E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3F70CA-9E3F-4731-8B4F-30E36D72558E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3F70CA-9E3F-4731-8B4F-30E36D72558E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4D3F70CA-9E3F-4731-8B4F-30E36D72558E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3F70CA-9E3F-4731-8B4F-30E36D72558E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3F70CA-9E3F-4731-8B4F-30E36D72558E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {356596CF-B0F8-4CF4-BA49-D3BD60BD0962}
+	EndGlobalSection
+EndGlobal
